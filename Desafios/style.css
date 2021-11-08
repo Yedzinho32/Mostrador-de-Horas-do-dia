@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(70,142,236);
+    font: normal 15pt arial;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px rgb(112, 112, 112);
+}
+
+section div {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        width: auto;
+    }
+    section {
+        width: auto;
+    }
+    section div {
+        width: auto;
+    }
+
+}
